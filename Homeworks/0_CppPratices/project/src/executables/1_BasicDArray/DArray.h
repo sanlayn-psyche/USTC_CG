@@ -1,7 +1,8 @@
 #pragma once
 
 // interfaces of Dynamic Array class DArray
-class DArray {
+class DArray 
+{
 public:
 	DArray(); // default constructor
 	DArray(int nSize, double dValue = 0); // set an array with default values

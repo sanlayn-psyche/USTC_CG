@@ -1,6 +1,7 @@
 #include "DArray.h"
 
-int main(int argc, char** argv) {
+int main(int argc, char** argv) 
+{
 	DArray a;
 	a.InsertAt(0, 2.1);
 	a.Print();
@@ -15,14 +16,14 @@ int main(int argc, char** argv) {
 	a.InsertAt(0, 4.1);
 	a.Print();
 
-	DArray acopy = a; // 此处用到了拷贝构造函数
+	DArray acopy = a; // 锟剿达拷锟矫碉拷锟剿匡拷锟斤拷锟斤拷锟届函锟斤拷
 	acopy.Print();
 
-	DArray acopy2(a); // 该语句等同于上面的语句，都是初始化
+	DArray acopy2(a); // 锟斤拷锟斤拷锟斤拷同锟斤拷锟斤拷锟斤拷锟斤拷锟戒，锟斤拷锟角筹拷始锟斤拷
 	acopy2.Print();
 
 	DArray acopy3, acopy4;
-	acopy4 = acopy3 = a; // 此处用到了赋值操作符号"="的重载
+	acopy4 = acopy3 = a; // 锟剿达拷锟矫碉拷锟剿革拷值锟斤拷锟斤拷锟斤拷锟斤拷"="锟斤拷锟斤拷锟斤拷
 	acopy3.Print();
 	acopy4.Print();
 
