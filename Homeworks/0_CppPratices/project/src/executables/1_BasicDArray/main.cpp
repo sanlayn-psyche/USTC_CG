@@ -42,6 +42,5 @@ int main(int argc, char** argv)
 	c.PushBack('c');
 	c.InsertAt(0, 'd');
 	c.Print();
-
 	return 0;
 }

@@ -115,7 +115,6 @@ void DArray::SetSize(int nSize)
 		p_d_ite++;
 	}
 	
-
 	Free();
 	m_nSize = nSize;
 	m_pData = p_d_array;
